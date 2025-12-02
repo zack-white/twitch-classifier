@@ -1,0 +1,14 @@
+{
+    "model": "GCN",
+    "in_channels": 4,
+    "hidden_channels": 64,
+    "out_channels": 21,
+    "optimizer": "Adam",
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "epochs_run": 24,
+    "best_epoch": 4,
+    "best_test_acc": 0.7390773892402649,
+    "early_stopped": true,
+    "loss_function": "weighted_cross_entropy"
+}

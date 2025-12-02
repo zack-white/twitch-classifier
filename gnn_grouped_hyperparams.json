@@ -1,0 +1,29 @@
+{
+    "model": "GCN",
+    "features": [
+        "views",
+        "mature",
+        "life_time",
+        "affiliate",
+        "dead_account",
+        "account_age"
+    ],
+    "in_channels": 6,
+    "hidden_channels": 64,
+    "out_channels": 6,
+    "lr": 0.01,
+    "weight_decay": 0.0005,
+    "epochs_run": 34,
+    "best_epoch": 14,
+    "best_test_acc": 0.7398506999015808,
+    "early_stopped": true,
+    "loss_function": "weighted_cross_entropy",
+    "language_groups": [
+        "ASIAN",
+        "EN",
+        "GERMANIC",
+        "OTHER",
+        "ROMANCE",
+        "SLAVIC"
+    ]
+}

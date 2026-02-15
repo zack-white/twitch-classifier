@@ -1,0 +1,12 @@
+{
+    "classes": [
+        "ASIAN",
+        "EN",
+        "GERMANIC",
+        "OTHER",
+        "ROMANCE",
+        "SLAVIC"
+    ],
+    "num_classes": 6,
+    "embedding_dim": 123
+}
